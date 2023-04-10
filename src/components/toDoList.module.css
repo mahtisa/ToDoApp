@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+}
+.toDoList{
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgb(24, 81, 212);
+    font-size: 15pt;
+}
+.btnHolder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+.red{
+    color: red;
+    cursor: pointer;
+}
+.blue{
+    color:  rgb(10, 70, 190);
+    cursor: pointer;
+}
+.toDoLine{
+    text-decoration: line-through;
+}
+.input{
+    border: none;
+    background: none;
+    outline: none;
+}
